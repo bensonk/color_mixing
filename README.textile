@@ -1,0 +1,7 @@
+h2. Color Mixing
+
+This arduino sketch lets you create a constantly changing colored light.  Give your arduino a red, green, and blue LED on pins 9, 10, and 11 respectively.  If your LEDs differ from the strawhat LEDs I used, you may wish to tweak the max brightness values #defined as R_MAX, G_MAX, and B_MAX.
+
+Once you've got it running, I recommend making a paper cube with one side missing, and filling it gently with crumpled tissue.  Cover your LEDs with this box to get a diffuse glow.  
+
+This project was inspired by "Ladyada's arduino tutorial":http://www.ladyada.net/learn/arduino/index.html "lesson three":http://www.ladyada.net/learn/arduino/lesson3.html .  It's very similar to the project at the end of the tutorial, but goes a bit further, using PWM to vary the brightness. 
